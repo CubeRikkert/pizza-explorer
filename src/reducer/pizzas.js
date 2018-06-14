@@ -1,6 +1,12 @@
 const reducer = (state = initialState, action = {}) => {
   switch (action.type) {
-    default:
+  case 'ADD_PIZZA':
+    return [
+      ...state,
+      action.payload
+    ]
+    
+  default:
     return state
   }
 }

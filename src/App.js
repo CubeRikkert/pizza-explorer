@@ -3,6 +3,7 @@ import logo from './logo.svg';
 import './App.css';
 import PizzaListContainer from './components/PizzaListContainer'
 import PizzaDetailsContainer from './components/PizzaDetailsContainer'
+import AddPizzaFormContainer from './components/AddPizzaFormContainer'
 
 class App extends Component {
   render() {
@@ -15,6 +16,7 @@ class App extends Component {
         <main>
           <PizzaListContainer />
           <PizzaDetailsContainer />
+          <AddPizzaFormContainer />
         </main>
       </div>
     );
